@@ -1,0 +1,76 @@
+.hero {
+    text-align: center;
+
+}
+
+.h-text {
+    position: relative;
+    margin: 5vw;
+}
+
+.h-text1 {
+    font-family: 'Maax';
+    font-size: 4vw;
+}
+
+.h-text3 {
+    color: #838383;
+    font-weight: 100;
+    font-size: 1.2vw;
+    margin: 1vw;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s1-text {
+    font-weight: 100;
+    font-size: 4vw;
+    letter-spacing: 2.5vw;
+    text-align: center;
+    color: #BEBEBE;
+
+}
+
+.s1-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F4F4F4;
+    ;
+    width: 90vw;
+    margin: 5vw;
+}
+
+.s1-image {
+    width: 30%;
+}
+
+.s1-image img {
+    width: 100%;
+}
+.s1-clients{
+    margin: 20px;
+}
+.s1-clients p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+@media (max-width:570px) {
+    .s1-box {
+        flex-direction: column-reverse;
+    }
+
+    .s1-image {
+        width: 60%;
+    }
+
+    .s1-clients p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,182 @@
+.hero {
+    text-align: center;
+
+}
+
+.hero img {
+    width: 100%;
+    /* position: relative;
+    z-index: -1; */
+}
+
+.h-text {
+    position: relative;
+    top: 3vw;
+    margin: 1vw;
+}
+
+.h-text1 {
+    font-family: 'Maax';
+    font-size: 4vw;
+}
+
+.h-text2 {
+    padding: 5px 0px;
+    font-family: 'Maax';
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+.h-text3 {
+    color: #838383;
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.section1 {
+    text-align: center;
+    margin: 7vw 0vw;
+}
+
+
+.s1-text {
+    font-size: calc(18px + 2vw);
+    font-weight: 300;
+}
+
+.flex-profile {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0rem;
+}
+
+.profile {
+    font-weight: 800;
+    line-height: 2vw;
+    letter-spacing: 0.015em;
+}
+.profile p{
+    padding: 10px;
+}
+
+.profile img {
+    width: 15vw;
+}
+
+.s2r {
+    width: 45%;
+    margin: 5vw 0;
+    margin-left: 40vw;
+}
+
+.s2l {
+    width: 45%;
+    margin: 7vw 15vw;
+}
+
+.s2-text1 {
+    font-weight: 300;
+    font-size: calc(18px + 2vw);
+    margin: 1rem 0rem;
+}
+
+.s2-text2 {
+    text-align: justify;
+    font-weight: 300;
+    color: #494949;
+}
+
+.s2Line {
+    line-height: 2.3vw;
+}
+
+.section3 {
+    text-align: center;
+    margin: 13vw 0vw;
+}
+
+.s3-text1 {
+    line-height: 2rem;
+    font-size: calc(14px + 1vw);
+    font-weight: 300;
+}
+
+.s3-text2 span {
+    font-weight: bold;
+}
+
+.s3-text2 {
+    padding: 3vw;
+    font-weight: 200;
+    font-size: calc(12px + 1vw);
+}
+
+.flex-s3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5vw 0;
+}
+
+.s3-fi1 .fi-text1 {
+    background-image: url("/img/About-us/Group 105.png");
+
+}
+
+.s3-fi2 .fi-text1 {
+    background-image: url("/img/About-us/Group 106.png");
+
+}
+
+.s3-fi3 .fi-text1 {
+    background-image: url("/img/About-us/Group 107.png");
+
+}
+
+.s3-fi4 .fi-text1 {
+    background-image: url("/img/About-us/Group 108.png");
+
+}
+
+.fi-bg {
+    height: 15vw;
+    width: 15vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fi {
+    width: min-content;
+    height: min-content;
+}
+
+.fi-text2 {
+    font-weight: 300;
+}
+
+@media (max-width:570px) {
+
+    .section2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .s2r{
+        margin-left: 0;
+        width: 65%;
+    }
+    .s2l{
+        width: 65%;
+    }
+    .flex-s3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fi-bg{
+        width: 25vw;
+        height: 25vw;
+    }
+    .profile img{
+        width: 20vw;
+    }
+    
+}

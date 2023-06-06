@@ -1,0 +1,71 @@
+.hero {
+    text-align: center;
+
+}
+
+.hero img {
+    width: 100%;
+    /* position: relative;
+    z-index: -1; */
+}
+
+.h-text {
+    position: relative;
+    top: 3vw;
+    margin: 1vw;
+}
+
+.h-text1 {
+    font-family: 'Maax';
+    font-size: 4vw;
+}
+
+.h-text2 {
+    padding: 5px 16px;
+    font-family: 'Maax';
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #838383;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vw 0vw;
+}
+
+.s1a {
+    width: 80vw;
+}
+
+.s1-text {
+    margin: 5vw 0vw;
+}
+
+.s1a img {
+    width: 100%;
+}
+
+.s1a .text1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1vw 0vw;
+}
+
+.s1a .text2 {
+    color: #6B6A6A;
+    text-align: justify;
+    font-size: 18px;
+}
+
+@media (max-width:570px) {
+
+    .s1a .text1 {
+        font-size: 16px;
+    }
+
+    .s1a .text2 {
+        font-size: 12px;
+    }
+}
