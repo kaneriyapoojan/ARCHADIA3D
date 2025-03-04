@@ -2,6 +2,8 @@
 
 Welcome to the repository for **Archadia 3D**, a website built to showcase architectural visualization, 3D modeling, and rendering services. This repository contains the source code for the website [Archadia 3D](https://archadia3d.co.in/).
 
+![Screenshot 2025-03-04 at 6 44 29 PM](https://github.com/user-attachments/assets/707b9e4e-b54e-4eeb-8499-173e2655808a)
+
 ## 🚀 Live Website
 Visit: [Archadia 3D](https://archadia3d.co.in/)
 
